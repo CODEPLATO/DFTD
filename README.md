@@ -31,6 +31,13 @@ We chose GITHUB as a platform for storing our code instead of dropbox for the fo
 | python   | using [pyenv](https://github.com/yyuu/pyenv) use the anaconda distribution, comes with various scientific libraries |
 
 
+## Arduino
+
+### Sensors
+
+[MySensors nRF24L01](https://github.com/mysensors/Arduino/tree/master/libraries/MySensors)
+see [here](http://www.mysensors.org/about/components) for the components
+
 ## Misc. 
 
 * passwordless login using `ssh-keygen`
