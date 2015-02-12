@@ -1,36 +1,38 @@
-Doorbell for the Deaf
+Doorbell for the Deaf (DFTD)
 ====
 
-
 ## Introduction/Sypnosis
+Microcontroller code behind the creation of a vibration doorbell for the deaf.
 
+## Sharing of code on GITHUB
+
+We chose GITHUB as a platform for storing our code instead of dropbox for the following reasons:
+
+1. 
+2. Documentation for our code
+3. Multiple persons can work on the same code (but preferably not unless you’re already familiar with git) at the same time.
+        working on separate documents (different folders different code) in parellel is readily supported
 
 
 ## Prerequisites
 
-### Sharing of code on GITHUB
-Multiple persons can work on the same (preferably not) code at the same time.
-IE. work of separate documents (different folders different code) in parellel.
+1. [Commandline IDE](http://inotool.org/) for uploading code into the arduino board. (See [quick tutorial](http://inotool.org/quickstart))
+ * Reason for chosing a command line (terminal) ide instead of the GUI is it allows easy integration into scripts eg. python/perl/bash
+2. picocom (serial monitor)
+3. Python (Anaconda Distribution)
 
-#### SSH keys
-WHY?
-passwordless login, ad git cloning from github without using https.
+### Installation of prerequisites
 
-### Commandline IDE
+| Software | Tutorial                                                                                                            |
+| ----     | ----                                                                                                                |
+| INO:     | [Installation](http://codeslingers.co.uk/2014/04/19/developing-arduino-in-vim/)                                     |
+| picocom: | [Homebrew](http://brew.sh/) brew install picocom                                                                    |
+| iterm    | Terminal replacement for OSX                                                                                        |
+| python   | using [pyenv](https://github.com/yyuu/pyenv) use the anaconda distribution, comes with various scientific libraries |
 
-Why commandline?
-1. Faster
-2. Can be called from a script (python/bash/perl)
-
-#### Installation Instructions
-[Installation](http://codeslingers.co.uk/2014/04/19/developing-arduino-in-vim/)
-INO: 
-
-
-* iterm (replacement for default terminal in OSX)
-* install python using pyenv [link](https://github.com/yyuu/pyenv)
- * Choose the anaconda python distro (ie. numpy, scipy, pandas, sklearn all comes installed for you :) save time)
-* homebrew to install picocom (serial montior tool for command line interface [cli])
 
 ## Misc. 
-BASH ALIASES for shorterning commands like ssh user@xxx.xxx.xxx.xxx 
+
+* passwordless login using `ssh-keygen`
+* pass github your `.ssh/id.rsa.pub` to github to clone securely.
+* BASH ALIASES for shorterning commands like ssh user@xxx.xxx.xxx.xxx 
