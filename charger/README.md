@@ -6,7 +6,7 @@ Components:
 1. Lithium Ion (7V 150mAH)
 2. Charging Chip
 
-![chipSchematic](./Chipschematic.png)
+![chipSchematic](./ChipSchematic.png)
 
 ## Outputs
 
